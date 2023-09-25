@@ -1,0 +1,56 @@
+{
+    "Versions": [
+        {
+            "ETag": "\"11c9c5d7c37e614b4d99eea11672227e\"",
+            "Size": 5,
+            "StorageClass": "STANDARD",
+            "Key": "fuga.txt",
+            "VersionId": "51d4b42e-5ea1-46d0-aff1-bfbc600902bb",
+            "IsLatest": false,
+            "LastModified": "2023-09-25T14:12:45Z",
+            "Owner": {
+                "DisplayName": "webfile",
+                "ID": "75aa57f09aa0c8caeab4f8c24e99d10f8e7faeebf76c078efc7c6caea54ba06a"
+            }
+        },
+        {
+            "ETag": "\"c59548c3c576228486a1f0037eb16a1b\"",
+            "Size": 5,
+            "StorageClass": "STANDARD",
+            "Key": "hoge.txt",
+            "VersionId": "6538b472-f827-419d-948c-2180fd8cde81",
+            "IsLatest": true,
+            "LastModified": "2023-09-25T14:12:44Z",
+            "Owner": {
+                "DisplayName": "webfile",
+                "ID": "75aa57f09aa0c8caeab4f8c24e99d10f8e7faeebf76c078efc7c6caea54ba06a"
+            }
+        },
+        {
+            "ETag": "\"659607e656ce74ece0d54968a539d33a\"",
+            "Size": 4,
+            "StorageClass": "STANDARD",
+            "Key": "vaa.txt",
+            "VersionId": "9f86bb0b-fa2c-4f6e-b0e4-b2874a3b9019",
+            "IsLatest": true,
+            "LastModified": "2023-09-25T14:12:45Z",
+            "Owner": {
+                "DisplayName": "webfile",
+                "ID": "75aa57f09aa0c8caeab4f8c24e99d10f8e7faeebf76c078efc7c6caea54ba06a"
+            }
+        }
+    ],
+    "DeleteMarkers": [
+        {
+            "Owner": {
+                "DisplayName": "webfile",
+                "ID": "75aa57f09aa0c8caeab4f8c24e99d10f8e7faeebf76c078efc7c6caea54ba06a"
+            },
+            "Key": "fuga.txt",
+            "VersionId": "5f897495-8b5b-4cf2-a841-3fa010557687",
+            "IsLatest": true,
+            "LastModified": "2023-09-25T14:12:46Z"
+        }
+    ],
+    "RequestCharged": null
+}
