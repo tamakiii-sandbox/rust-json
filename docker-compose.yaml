@@ -1,0 +1,15 @@
+services:
+  localstack:
+    image: localstack/localstack:2.2.0
+    ports:
+      - "127.0.0.1:4566:4566"            # LocalStack Gateway
+      - "127.0.0.1:4510-4559:4510-4559"  # external services port range
+    environment:
+      - DEBUG=${DEBUG-}
+      - DOCKER_HOST=unix:///var/run/docker.sock
+    volumes:
+      - "localstack:/var/lib/localstack"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./docker/etc/localstack/init/ready.d:/etc/localstack/init/ready.d"
+volumes:
+  localstack:
